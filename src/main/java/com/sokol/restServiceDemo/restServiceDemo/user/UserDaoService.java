@@ -54,12 +54,12 @@ public class UserDaoService {
     }
 
 
-    public static void main(String[] args) {
-        users.add(null);
-
-        // check null in list
-        System.out.println(users.stream().filter(e -> Objects.nonNull(e)).collect(Collectors.toList()).toString());
-    }
+//    public static void main(String[] args) {
+//        users.add(null);
+//
+//        // check null in list
+//        System.out.println(users.stream().filter(e -> Objects.nonNull(e)).collect(Collectors.toList()).toString());
+//    }
 
 
 }
